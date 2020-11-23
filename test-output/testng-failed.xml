@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HybridFrmworkSuite]">
+  <listeners>
+    <listener class-name="com.qa.linkedin.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="HybridFrmworkTest(failed)">
+    <classes>
+      <class name="com.qa.linkedin.testcase.SearchDDTest">
+        <methods>
+          <include name="searchTest"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="LoginSetup"/>
+          <include name="setup"/>
+          <include name="objectSetup"/>
+        </methods>
+      </class> <!-- com.qa.linkedin.testcase.SearchDDTest -->
+    </classes>
+  </test> <!-- HybridFrmworkTest(failed) -->
+</suite> <!-- Failed suite [HybridFrmworkSuite] -->

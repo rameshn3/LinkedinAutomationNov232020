@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HybridFrmworkSuite" duration-ms="72264" started-at="2020-11-20T08:20:12 IST" finished-at="2020-11-20T08:21:24 IST">
+    <groups>
+    </groups>
+    <test name="HybridFrmworkTest" duration-ms="72264" started-at="2020-11-20T08:20:12 IST" finished-at="2020-11-20T08:21:24 IST">
+      <class name="com.qa.linkedin.testcase.SearchDDTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.linkedin.testcase.SearchDDTest@255b53dc]" name="setup" is-config="true" duration-ms="31913" started-at="2020-11-20T08:19:40 IST" finished-at="2020-11-20T08:20:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="objectSetup()[pri:0, instance:com.qa.linkedin.testcase.SearchDDTest@255b53dc]" name="objectSetup" is-config="true" duration-ms="228" started-at="2020-11-20T08:20:12 IST" finished-at="2020-11-20T08:20:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectSetup -->
+        <test-method status="PASS" signature="LoginSetup()[pri:0, instance:com.qa.linkedin.testcase.SearchDDTest@255b53dc]" name="LoginSetup" is-config="true" duration-ms="17210" started-at="2020-11-20T08:20:12 IST" finished-at="2020-11-20T08:20:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSetup -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcase.SearchDDTest@255b53dc]" name="searchTest" duration-ms="16189" started-at="2020-11-20T08:20:31 IST" data-provider="getData" finished-at="2020-11-20T08:20:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sirisha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcase.SearchDDTest@255b53dc]" name="searchTest" duration-ms="16195" started-at="2020-11-20T08:20:47 IST" data-provider="getData" finished-at="2020-11-20T08:21:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcase.SearchDDTest@255b53dc]" name="searchTest" duration-ms="15487" started-at="2020-11-20T08:21:04 IST" data-provider="getData" finished-at="2020-11-20T08:21:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.linkedin.testcase.SearchDDTest@255b53dc]" name="afterClass" is-config="true" duration-ms="4747" started-at="2020-11-20T08:21:19 IST" finished-at="2020-11-20T08:21:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linkedin.testcase.SearchDDTest@255b53dc]" name="tearDown" is-config="true" duration-ms="5423" started-at="2020-11-20T08:21:25 IST" finished-at="2020-11-20T08:21:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.linkedin.testcase.SearchDDTest -->
+    </test> <!-- HybridFrmworkTest -->
+  </suite> <!-- HybridFrmworkSuite -->
+</testng-results>
